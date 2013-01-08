@@ -19,3 +19,8 @@ input.placeholder {
   color: #ff0000;
 }
 ```
+
+
+## Extra
+
+`$.support.placeholder` is assigned *true* if input *placeholder* attribute is supported by the browser, *false* otherwise.
