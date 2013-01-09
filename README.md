@@ -4,7 +4,7 @@ jQuery Placeholder is a lightweight jQuery plugin that adds input *placeholder* 
 It uses the input *value* property to mimic the placeholder behavior.  
 It handles input focus, input blur, form submit and form reset events.
 
-[**Demo page**](http://htmlpreview.github.com/?https://github.com/yohannrub/jquery.placeholder/blob/master/example/index.html)
+[**Demo page**](http://yohannrub.github.com/jquery.placeholder/)
 
 
 ## Usage
