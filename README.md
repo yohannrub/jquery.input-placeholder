@@ -4,6 +4,8 @@ jQuery Placeholder is a lightweight jQuery plugin that adds input *placeholder* 
 It uses the input *value* property to mimic the placeholder behavior.  
 It handles input focus, input blur, form submit and form reset events.
 
+[**Demo page**](http://htmlpreview.github.com/?https://github.com/yohannrub/jquery.placeholder/blob/master/example/index.html)
+
 
 ## Usage
 
@@ -12,7 +14,7 @@ Just import the javascript file into your html page.
 
 ## Styling
 
-The placeholder text of an input can be styled using the css class 'placeholder' applied to the *input* element.
+The placeholder text of an input can be styled using the CSS class 'placeholder' applied to the *input* element.
 
 ```css
 input.placeholder {
