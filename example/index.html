@@ -18,5 +18,13 @@
 
 <script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
 <script src="../jquery.placeholder.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('form').submit(function() {
+        alert('Submitted value: ' + $('[name="input1"]').val());
+        return false;
+    });
+});
+</script>
 </body>
 </html>
