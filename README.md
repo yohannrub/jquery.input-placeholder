@@ -18,7 +18,7 @@ The placeholder text of an input can be styled using the CSS class 'placeholder'
 
 ```css
 input.placeholder {
-  color: #ff0000;
+  color: #aaaaaa;
 }
 ```
 
