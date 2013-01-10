@@ -1,6 +1,6 @@
 /*!
- * jQuery Placeholder v@1.0
- * https://github.com/yohannrub/jquery.placeholder
+ * jQuery Input Placeholder v@1.0
+ * https://github.com/yohannrub/jquery.input-placeholder
  * Licensed under the MIT license
  */
 
