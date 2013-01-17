@@ -11,14 +11,26 @@
 <body>
 
 <form>
-<input type="text" name="input1" placeholder="Placeholder text 1" /><br />
-<input type="text" name="input2" placeholder="Placeholder text 2" /><br />
-<textarea name="textarea3" placeholder="Placeholder text 3"></textarea><br />
-<input type="submit" />
-<input type="reset" />
+    <input type="text" name="input1" placeholder="Placeholder text 1" /><br />
+    <input type="text" name="input2" placeholder="Placeholder text 2" /><br />
+    <textarea name="textarea3" placeholder="Placeholder text 3"></textarea><br />
+    <input type="submit" />
+    <input type="reset" />
 </form>
 
 <script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
 <script src="js/jquery.input-placeholder.min.js"></script>
+<script>
+if ($.support.placeholder) {
+    $('<p></p>', {
+        text: 'Your current browser natively supports HTML5 input placholder attribute, so the plugin is not run.',
+        css: {
+            'background-color': '#ffffe0',
+            'border': '2px solid red',
+            'font-weight': 'bold'
+        }
+    }).prependTo($('body'));
+}
+</script>
 </body>
 </html>
