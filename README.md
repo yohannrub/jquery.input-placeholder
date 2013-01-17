@@ -14,7 +14,6 @@ Just import the javascript file into your html page, and use *placeholder* attri
 ```html
 <input type="text" name="input" placeholder="Placeholder input" />
 <textarea name="textarea" placeholder="Placeholder textarea"></textarea>
-</form>
 ```
 
 
